@@ -1,0 +1,66 @@
+@use "@material/button";
+
+#squareButtons {
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: 3px solid black;
+  background-color: white;
+}
+
+// creates a minimal game board
+.squares-0-0,
+.squares-0-1,
+.squares-0-2 {
+  border-left: none !important;
+}
+
+.squares-2-0,
+.squares-2-1,
+.squares-2-2 {
+  border-right: none !important;
+}
+
+.squares-0-0,
+.squares-1-0,
+.squares-2-0 {
+  border-top: none !important;
+}
+
+.squares-0-2,
+.squares-1-2,
+.squares-2-2 {
+  border-bottom: none !important;
+}
+
+.button-container {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.reset-button {
+  margin: auto;
+  display: flex;
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+i {
+  font-size: 65px !important;
+  color: black;
+}
