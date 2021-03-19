@@ -9,12 +9,9 @@ import { FormControl } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
   randomNum = Math.random() * 4;
-  title = 'tic-tac-toe';
   squares: any[];
   xIsNext: boolean;
   winnerFound = false;
-  value;
-  boardLength;
   winner;
   toggleControl = new FormControl(false);
   @HostBinding('class') className = '';
